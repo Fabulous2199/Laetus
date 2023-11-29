@@ -1,7 +1,6 @@
-package net.prahas.resourcegen.item;
+package net.prahas.prahasmod.item;
 
-import com.google.common.eventbus.EventBus;
-import net.prahas.resourcegen.ResourceGen;
+import net.prahas.prahasmod.PrahasMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems
 {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, ResourceGen.MODID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, PrahasMod.MODID);
 
     public static final RegistryObject<Item> SAPPRIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
