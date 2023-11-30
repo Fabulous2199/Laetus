@@ -12,7 +12,7 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, PrahasMod.MODID);
 
-    public static final RegistryObject<Item> SAPPRIRE = ITEMS.register("sapphire",
+    public static final RegistryObject<Item> LAETUS = ITEMS.register("laetus",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)

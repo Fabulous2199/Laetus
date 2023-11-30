@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "prahasmod:block/laetus_block"
+    }
+  }
+}

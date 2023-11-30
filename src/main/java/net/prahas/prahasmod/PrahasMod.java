@@ -13,6 +13,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.prahas.prahasmod.block.ModBlocks;
 import net.prahas.prahasmod.item.ModItems;
 
 @Mod(PrahasMod.MODID)
@@ -24,7 +25,11 @@ public class PrahasMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -44,7 +49,7 @@ public class PrahasMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.SAPPRIRE);
+            event.accept(ModItems.LAETUS);
         }
     }
 

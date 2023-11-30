@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Prahas",
+	"parent": "minecraft:block/cube_all",
+	"textures":
+	{
+		"all": "prahasmod:block/laetus_block"
+	}
+}

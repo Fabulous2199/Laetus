@@ -1,0 +1,7 @@
+{
+  "credit": "Made by Prahas",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "prahasmod:item/laetus"
+  }
+}
