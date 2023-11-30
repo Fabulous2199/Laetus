@@ -1,4 +1,4 @@
-package net.prahas.prahasmod;
+package net.prahas.laetus;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -7,13 +7,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
-import net.prahas.prahasmod.block.ModBlocks;
-import net.prahas.prahasmod.item.ModItems;
+import net.prahas.laetus.block.ModBlocks;
+import net.prahas.laetus.item.ModItems;
 
 public class ModCreativeModTabs
 {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PrahasMod.MODID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Laetus.MODID);
 
     public static final RegistryObject<CreativeModeTab> PRAHAS_TAB = CREATIVE_MODE_TABS.register("prahas_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LAETUS.get()))

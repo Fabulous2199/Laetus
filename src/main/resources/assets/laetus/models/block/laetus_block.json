@@ -3,6 +3,6 @@
 	"parent": "minecraft:block/cube_all",
 	"textures":
 	{
-		"all": "prahasmod:block/laetus_block"
+		"all": "laetus:block/laetus_block"
 	}
 }

@@ -1,4 +1,4 @@
-package net.prahas.prahasmod;
+package net.prahas.laetus;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,15 +13,15 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.prahas.prahasmod.block.ModBlocks;
-import net.prahas.prahasmod.item.ModItems;
+import net.prahas.laetus.block.ModBlocks;
+import net.prahas.laetus.item.ModItems;
 
-@Mod(PrahasMod.MODID)
-public class PrahasMod
+@Mod(Laetus.MODID)
+public class Laetus
 {
-    public static final String MODID = "prahasmod";
+    public static final String MODID = "laetus";
 
-    public PrahasMod()
+    public Laetus()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
