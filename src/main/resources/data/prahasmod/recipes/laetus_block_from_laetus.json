@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "prahasmod:laetus"
+    }
+  },
+  "result":
+  {
+    "item": "prahasmod:laetus_block"
+  }
+}

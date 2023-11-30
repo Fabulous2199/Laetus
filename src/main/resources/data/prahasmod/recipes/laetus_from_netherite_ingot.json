@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "ABC",
+    "D#E",
+    "FGH"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:white_dye"
+    },
+    "B":
+    {
+      "item": "minecraft:blue_dye"
+    },
+    "C":
+    {
+      "item": "minecraft:green_dye"
+    },
+    "D":
+    {
+      "item":"minecraft:yellow_dye"
+    },
+    "E":
+    {
+      "item":"minecraft:orange_dye"
+    },
+    "F":
+    {
+      "item":"minecraft:red_dye"
+    },
+    "G":
+    {
+      "item":"minecraft:magenta_dye"
+    },
+    "H":
+    {
+      "item":"minecraft:light_blue_dye"
+    },
+    "#":
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "prahasmod:laetus"
+  }
+}
